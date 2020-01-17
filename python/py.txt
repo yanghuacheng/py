@@ -1,0 +1,6 @@
+判断二进制数据是否为图片
+import imghdr
+s=imghdr.what(None,data)
+不是图片的话返回None  是图片返回图片类型的字符串
+
+
